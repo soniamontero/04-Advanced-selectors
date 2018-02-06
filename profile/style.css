@@ -1,0 +1,117 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  background-color: #f7f7f7;
+}
+
+p {
+  margin: 0px 20px 0px 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Abel', sans-serif;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px, 0px, 50px 0px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0px 0px 10px 15px;
+  text-shadow: 2px 2px 4px #eaeaea;
+
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border: 2px solid #ececec;
+}
+
+.box {
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px 100px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 30px;
+}
+
+.content {
+  margin: 100px auto;
+  width: 700px;
+}
+
+.btn {
+  background-color: #6ec552;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px auto 20px auto;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.inline-list > li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.align-text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cities {
+  margin: 20px 10px 5px 20px;
+  border: black 1px solid;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+}
+
+/* LINK PART */
+
+.grey-link {
+  color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/* RESIZING */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
